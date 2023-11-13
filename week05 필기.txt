@@ -1,0 +1,5 @@
+.gitignore 파일에 담긴 애들은 git에 올라가지 않음
+.gitignore 파일 안에 *.mod가 저장되있어서 .mod로 끝나는 파일들은 올라가지 않음
+
+NewReplacer("#", "O")
+ -> "#"을 찾아서 "O"로 교체하는 명령어

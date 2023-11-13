@@ -1,0 +1,17 @@
+git 주요 개념
+
+git 전송 과정(택배 발송에 비유)
+1. git init : 저장소 생성(.git 파일 생성)
+2. git add : 파일을 상자에 담음
+3. git commit : 상자 포장 후 주소 작성(commit 주석)
+(4). git status : commit이 정상 실행되어 대기열에 오류 없이 추가 되었나 확인
+5. git remote add origin <github url> : <github url>을 origin으로 설정
+6. git push origin : origin으로 저장된 저장소로 택배 발송
+
+
+- git log 후 commit에 뜨는 해시코드로 버전 변경 가능
+- git branch -M main : 기본 branch 이름을 "main"으로 설정
+- git clone <github url> : <github url>에 저장된 파일을 git bash된 폴더에 내려받음
+- .gitignore 파일로 git에 올리지 않을 파일 설정 가능(*.mod를 담아두면 .mod로 끝나는 파일 안올라감)
+
+go 언어 개념

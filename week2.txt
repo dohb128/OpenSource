@@ -1,0 +1,143 @@
+git 다운로드
+관리자 권한으로 실행
+test폴더 생성
+git bash 실행
+
+
+ 86  ls
+   87  ls -al
+   88  git init
+   89  ls
+   90  ls -al
+   91  cd .git
+   92  ls
+   93  cd ..
+   94  pwd
+   95  git status
+   96  git add week01.txt
+   97  git status
+
+$ git commit -m "v0"
+$ git config --global --list
+
+$ git config --global user.email "202244003a@gmail.com"
+$ git config --global user.name "202244003"
+
+$ git commit -m "v0"
+
+$ git status
+$ git log
+
+메모장 week01.txt
+------------------------------------------------
+week01
+- orientation, vcs
+- git, github, go programming language
+------------------------------------------------
+
+$ git status
+$ git add week01.txt
+$ git commit -m "v1"
+
+$ git log
+
+week02.txt 만들기
+-----------------------------------------------------------
+week02
+- linux command : ls, lsa- l, pwd, cd .git, cd ..
+- git command
+  git init : 저장소 지정? 생성?
+  git status : 상태 보기
+  git add week01.txt : 변경 내용 추가
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your name"
+  git commit -m "v0"
+  git log : 저장된 사진첩?
+------------------------------------------------------------
+week01.txt 수정
+
+$ git status
+$ git add .
+$ git status
+
+$ git commit -m "v2"
+
+$ git log
+
+log 후에 commit에 뜨는 해시코드 복사(앞 7자리만해도 됨)
+
+$ git checkout 해시코드붙여넣기
+$ git checkout - 해시코드붙여넣기 (돌아가기)
+
+$ echo "This repository contains Go code files and Git, giyhub, and Linux commands covered in the~~~" >> README.md
+
+$ git branch -M main
+
+$ git log
+$ git status
+
+$ cat README.md
+
+
+week02
+-------------------------------------------------------------
+week02
+- linux command : ls, lsa- l, pwd, cd .git, cd +, echo "~~" >> README.md ..
+- git command
+  git init : 저장소 지정? 생성?
+  git status : 상태 보기
+  git add week01.txt : 변경 내용 추가
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your name"
+  git commit -m "v0"
+  git log : 저장된 사진첩?
++  git checkout
++  git branch -M main
+-----------------------------------------------------------------
+
+$ git add .
+$ git status
+$ git commit -m "v3"
+$ git log
+
+$ git remote add origin https://github.com/202244003/test.git  
+(이 도메인을 origin이라고 앞으로 부를거임)
+$ git remote -v (전화번호부에 저장된것들??)
+
+$ git push -u origin main (origin에 main을 올리기)
+
+엣지에서 실행되면 잘라내서 크롬에다 붙여넣기
+
+$ git log
+ 
+
+week02
+-------------------------------------------------------------
+week02
+- linux command : ls, lsa- l, pwd, cd .git, cd, echo "~~" >> README.md ..
+- git command
+  git init : 저장소 지정? 생성?
+  git status : 상태 보기
+  git add week01.txt : 변경 내용 추가
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your name"
+  git commit -m "v0"
+  git log : 저장된 사진첩?
+  git checkout
+  git branch -M main
++  git remote add origin https://github.com/202244003/test.git
++  git remote -v
++  git push -u origin main
+-----------------------------------------------------------------
+
+$ git add .
+$ git status
+$ git commit -m "v4"
+$ git log
+
+$ git push
+
+test폴더 지우기
+test폴더만 다시 만들기 
+
+$ git clone https://github.com/202244003/test.git .
