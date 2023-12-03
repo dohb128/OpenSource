@@ -28,4 +28,10 @@ func main() {
 	for _, prime := range primes { //값을 출력하려 했으나 인덱스가 출력됨
 		fmt.Println(prime)
 	}
+
+	fmt.Println("--------")
+	fmt.Printf("%#v\n", test)   // test의 타입, 크기, 값 출력
+	fmt.Println(test)           // test의 값 출력
+	fmt.Printf("%#v\n", primes) // primes의 타입, 크기, 값 출력
+	fmt.Println(primes)         // primes의 값 출력
 }
