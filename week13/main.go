@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	var a []string
+	var b []bool
+
+	//a = make([]string, 4, 5)
+
+	b = append(b, true)
+
+	fmt.Printf("%#V %#V\n", a, b)
+	fmt.Println(a, len(a), cap(a))
+	fmt.Println(b, len(b), cap(b))
+}
